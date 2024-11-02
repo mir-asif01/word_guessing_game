@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-1 {
+  border: 1px dotted gray;
+  padding: 50px;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.player-2 {
+  border: 1px dotted gray;
+  padding: 50px;
+}
+
+.enter-button {
+  background: #7ed4ad;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.word-input-field {
+  padding: 7px 10px;
+  outline: none;
+}
+
+.score {
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.player-name {
+  margin-bottom: 10px;
+}
+
+.word-history-container {
+  margin-top: 20px;
+}
+.word-history-container li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.timer-value {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #d76c82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: white;
+  font-weight: bolder;
+}
+.time-left-message {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.bg-disabled {
+  background: gray;
+}
